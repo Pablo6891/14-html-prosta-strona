@@ -1,0 +1,99 @@
+li a[href="#about"]{
+    color: red;
+}
+li a[href="#skills"]{
+    color: rgb(32, 197, 60);
+}
+li a[href="#portfolio"]{
+    color: blue;
+}
+li a[href="#contact"]{
+    color: rgb(229, 255, 0);
+}
+#about {
+    margin-top: 200px;
+    background-color: crimson;
+    width: 550px;
+    height: 150px;
+    display: block;
+}
+section#skills{
+    margin-top: 200px;
+}
+div{
+   display: inline-block;
+}
+div.b1{
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    display: inline-block;
+}
+div.b2{
+    width: 140px;
+    height: 140px;
+    background-color: darkviolet;
+    display: inline-block;
+}
+div.b3{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    display: inline-block;
+}
+div.b4{
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    display: inline-block;
+}
+section#portfolio{
+    margin-top: 200px;
+}
+div.d1{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
+    display: block;
+}
+div.d2{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: red;
+    border-width: 20px;
+    display: block;   
+}
+div.d3{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: pink;
+    border-width: 20px;
+    display: block;
+}
+section#contact{
+    margin-top: 200px;
+}
+address label{
+    display: block;
+}
+textarea{
+    margin-top: 20px;
+    color: black;    
+}
+textarea::placeholder{
+    color: black;
+}
+address input[type="submit"]{
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica,, sans-serif;
+    font-size: 15px;
+}

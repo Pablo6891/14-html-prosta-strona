@@ -3,97 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-        <h1>
-            <li><a href="#About us" style=color:red;>About us</a></li>
-            <li><a href="#Skills" style=color:green;>Skills</a></li>
-            <li><a href="#Portfolio" style=color:yellow;>Portfolio</a></li>
-            <li><a href="#Contact" style=color:pink;>Contact</a></li>        
-        </h1>
-        
-        </ul>
-
+                <!-- Menu nawigacyjne -->
+    <nav class="main-navigation">
+        <ul class="menu-list">
+            <h1>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+            </h1>
+    </ul>
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <section id="About us" style=background:blue;>
-                <h2>About us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem nam ipsam autem quos reprehenderit, id aut.<br> Eveniet voluptate quia ad expedita eos. A asperiores illo labore modi iste! Ducimus?</p>
-        </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <section id="Skills"></section>
-                <h2>Umiejętności</h2>
-                <div style="width:150px; height:150px; background-color:red; display: inline-block;"></div>
-                <div style="width:150px; height:150px; background-color:green; display: inline-block;"></div>
-                <div style="width:150px; height:150px; background-color:blue; display: inline-block;"></div>
-                <div style="width:150px; height:150px; background-color:yellow; display: inline-block;"></div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section id="Portfolio"></section>
-    <h2>Portfolio</h2>
-    <div style="width:150px; height:150px; background-color:red; border: 10px solid blue; margin-bottom: 1px;"></div>
-    <div style="width:150px; height:150px; background-color:green; border: 10px solid red; margin-bottom: 1px"></div>
-    <div style="width:150px; height:150px; background-color:blue; border: 10px solid green; margin-bottom: 1px"></div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section id="Contact"></section>
-    <h2>Paweł Oleszczuk</h2> 
-    
-   
-<footer>    
-    <address>
-    
-        <a href="mailto:poleszczuk10@o2.pl">poleszczuk10@o2.pl</a>
-       <br>
-        <a href="tel:500-000-000">tel. kom. 500-000-000</a>
-    </address>
-</footer>
+                <!-- Sekcja About us -->
+<section id="about" class="about" name="about">
+        <h2>Nagłówek</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur dignissimos ipsam nihil quam, quod eaque similique ex amet odit totam alias eveniet cupiditate reiciendis tenetur recusandae dolorem repudiandae accusantium.</p>
+</section>     
+                <!-- Sekcja Skills -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+</section>
+                <!-- Sekcja Protfolio -->
+<section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>       
+</section>
+                <!-- Sekcja Contact -->
+<section id="contact"></section>
+<h2>Paweł Oleszczuk</h2>
+<address>
+    <form action="https://formspree.io/xeqgvzpw" method="POST">
+        <label for="name">Imię</label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="temat">Temat</label>
+        <input type="text" name="temat" id="temat" required><br>
+        <textarea type="text" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomość..." required></textarea><br>
+        <input type="submit" value="Wyślij" id="send">
+    </form>
+</address>
 <br>
-<br>
-<br>
-<form action="https://formspree.io/mgekpvql" method="POST">
-<label for="imie">Imię</label>
-<br>
-<input type="text" name="imie" id="imie">
-<br>   
-<label for="nazwisko">Nazwisko</label>
-<br>
-<input type="text" name="nazwisko" id="nazwisko">
-<br>
-<label for="textarea">Wiadomość</label>
-<br>
-<textarea maxlength="1000" name="message" style="width: 167px; height: 100px;"></textarea>
-<br>
-<input type="submit" value="Wyślij" style=" background-color: green; width: 80px; height: 50px; font-size: 18px; font-family: Verdana; ">
-<br>
-<br>
-<br>
-<br>
-<br>
-</form>
 </body>
 </html>
